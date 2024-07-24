@@ -35,4 +35,3 @@ class LIFOCache(BaseCaching):
             return
 
         return self.cache_data[key]
-

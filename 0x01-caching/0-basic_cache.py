@@ -20,4 +20,3 @@ class BasicCache(BaseCaching):
         '''Retrieve an item from the cache by key.
         '''
         return self.cache_data.get(key, None)
-
